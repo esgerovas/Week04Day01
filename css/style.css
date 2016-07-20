@@ -1,0 +1,233 @@
+/* common classes */
+.divHeight{
+	height:100%;
+}
+
+.mainTextColor {
+	color: white;
+}
+
+
+#main{
+	background-image: url("../image/header.jpg");
+	background-size: cover;
+
+}
+#main .container-fluid{
+	padding: 0px;
+}
+#main  .navbar{
+	background-color: transparent;
+}
+#main  .navbar a{
+	color:white;
+	font-size: 1.2em;
+}
+#main  .navbar a:hover{
+	color:yellow;
+	background-color: transparent;
+}
+#main .navbar-header .navbar-brand {
+	color:#FED136;
+	font-size: 1.6em;
+	text-transform: uppercase;
+}
+#main h3 {
+	font-style: italic;
+	font-size: 3em;
+}
+#main h1 {
+	font-size: 5em;
+	font-weight: 700;
+}
+#main .btn {
+	border-radius: 0;
+	padding: 20px 30px;
+}
+#main .content{
+	padding: 200px 0;
+}
+
+
+#services {
+}
+
+#services .mainColor{
+background-color: white;
+}
+#services h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+#services i{
+	color: white;
+	background-color: #FED136;
+	border-radius: 100%;
+	padding:30px;
+}
+
+#services h6 {
+	padding: 10px 0 40px 0;
+	font-style: italic;
+
+}
+#services .content {
+	padding: 50px 0;
+}
+
+
+
+#portfolio {
+	
+}
+#portfolio .mainColor{
+	background-color: lightgray;
+}
+
+#portfolio .content {
+	padding: 50px 0;
+}
+
+#portfolio h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#portfolio h6 {
+	padding: 10px 0 40px 0;
+	font-style: italic;
+}
+
+
+#about{
+	
+}
+#about .mainColor{
+	
+}
+#about .content {
+	padding: 50px 0;
+}
+#about h1{
+	text-transform: uppercase;
+	font-weight: 700;
+}
+#about h6{
+	padding: 10px 0 40px 0;
+	font-style: italic;
+}
+#about .center-line{
+	display: block;
+	margin:0 auto;
+	width: 30px;
+}
+
+#about .img-circle{
+	
+	width: 170px;
+    height: 170px;
+    border:5px solid gray; 
+    text-align: center;
+    background-color: #FED136;
+    color: white;
+    margin-top: 0;
+}
+
+
+
+
+#team{
+	
+}
+#team .mainColor{
+	background-color: lightgray;
+}
+#team .content {
+	padding: 50px 0;
+}
+#team h1{
+	text-transform: uppercase;
+	font-weight: 700;
+}
+#team h6{
+	padding: 10px 0 40px 0;
+	font-style: italic;
+}
+#team .img-responsive{
+	margin:0 auto;
+	border:6px solid white;
+}
+#team .social-btn li{
+	background-color: black;
+	border-radius: 50%;
+	font-size:1.6em;
+	padding:2px 10px;
+	transition:all 0.5s ease;
+	margin:7px;
+}
+#team .social-btn li:hover{
+	background-color:rgb(254, 209, 54); 
+
+}
+#team .social-btn li a{
+	color:white;
+}
+#logo .mainColor{
+	
+}
+#logo .content {
+	padding: 50px 0;
+}
+#logo .img-responsive{
+	margin:0 auto;
+}
+#contact{
+	background:  #222 url('../image/map.png') no-repeat center;
+}
+#contact .content {
+	padding: 50px 0;
+}
+#contact  h1{
+	text-transform: uppercase;
+	font-weight: 700;
+	color:white;
+}
+#contact h6{
+	padding: 10px 0 40px 0;
+	font-style: italic;
+	color:white;
+}
+#contact input{
+	height: 60px;
+}
+#contact textarea{
+	height: 210px;
+}
+#contact .btn{
+	padding:20px 40px;
+	margin-top: 20px;
+	font-size: 1.4em;
+}
+#footer {
+	font-size: 1.2em;
+}
+#footer .content {
+	padding: 30px 0 10px 0;
+}
+#footer .social-btn li{
+	background-color: black;
+	border-radius: 50%;
+	font-size:1.6em;
+	padding:2px 10px;
+	margin: 7px;
+	transition:all 0.5s ease;
+}
+#footer .social-btn li a{
+	color:white;
+}
+#footer .social-btn li:hover{
+	background-color:rgb(254, 209, 54); 
+}
+#footer .links a{
+	color:rgb(254, 209, 54);
+}
